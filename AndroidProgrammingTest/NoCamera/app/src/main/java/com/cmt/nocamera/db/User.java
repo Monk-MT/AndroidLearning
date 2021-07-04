@@ -1,0 +1,37 @@
+package com.cmt.nocamera.db;
+
+import org.litepal.crud.LitePalSupport;
+
+/**
+ * @author ChenMingTao email:cmt96@foxmail.com
+ * @create 2021-03-28-14:38
+ */
+public class User extends LitePalSupport {
+    private int id;
+    private String userName;
+    private String password;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userNma) {
+        this.userName = userNma;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
